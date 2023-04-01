@@ -77,6 +77,7 @@ body {
 
 .hero img {
     max-height: 250px;
+    max-width: 333px;
     flex: 1 0 auto;
     border-radius: 16px;
 }
@@ -131,7 +132,7 @@ body {
 }
 
 .inspiration .quote {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
@@ -142,4 +143,48 @@ body {
     font-size: 20px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+}
+
+.footer .action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 9px;
+    padding: 8px 128px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .action button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    border: solid;
+    border-width: 2px;
+    width: 100px;
+    height: 25px;
+    margin-top: 8px;
+    flex: 0 0 auto;
+}
+
+.footer button:hover {
+    background-color: #4892FF;
+}
+
+.footer .text {
+    padding: 12px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.footer h3,
+.footer p {
+    margin: 0;
 }
