@@ -43,7 +43,7 @@ body {
     padding: 24px 128px 64px;
     background-color: #1F2937;
     color: #E5E7EB;
-    gap: 128px;
+    gap: 24px;
 }
 
 .hero .text{
@@ -58,6 +58,7 @@ body {
 
 .hero .text p {
     margin: 8px 0;
+    max-width: 400px;
 }
 
 .hero .text button {
